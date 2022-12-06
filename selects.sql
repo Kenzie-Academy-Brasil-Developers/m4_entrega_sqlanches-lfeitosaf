@@ -4,8 +4,8 @@
 -- 1)
 
 SELECT
- 	pe,
- 	pr 
+ 	pe.*,
+ 	pr.*
  FROM 
  	pedidos pe
  JOIN

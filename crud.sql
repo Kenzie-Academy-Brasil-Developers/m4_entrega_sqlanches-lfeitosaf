@@ -31,10 +31,10 @@ VALUES
 
 -- 1)
 
-SELECT
- 	cl,
- 	pe,
- 	pr
+ SELECT
+ 	cl.*,
+ 	pe.*,
+ 	pr.*
  FROM 
  	pedidos pe
  JOIN
